@@ -8,11 +8,11 @@ namespace blobprogram
 {
     class Program
     {
-        static string storageconnstring = "DefaultEndpointsProtocol=https;AccountName=demostore20900;AccountKey=TRT8g+H8XyIrW/Lfr+Gx1tyF77SL4Uxjw6C/KnFP67n4atBXZMhiqLzTfT1VvhsArNw3rH6vn2RCC13GEllRbg==;EndpointSuffix=core.windows.net";
-        static string containerName = "data";
-        static string filename = "sample.txt";
-        static string filepath="C:\\Work\\sample.txt";
-        static string downloadpath = "C:\\Work\\sample.txt";
+        static string storageconnstring = "DefaultEndpointsProtocol=https;AccountName=az204300sa;AccountKey=EPU9Oxvr4tG58GukQJcgDs+yxeaaPSv7j+v+pBr8DUzTNScV0JC9LzJOryZgBMvAGDBTm45GM9wGaSUu/jPI2Q==;EndpointSuffix=core.windows.net";
+        static string containerName = "code-container";
+        static string filename = "sample2.txt";
+        static string filepath= "E:\\idman real.txt";
+        static string downloadpath = "E:\\sample.txt";
         static async Task Main(string[] args)
         {
             //Container().Wait();
